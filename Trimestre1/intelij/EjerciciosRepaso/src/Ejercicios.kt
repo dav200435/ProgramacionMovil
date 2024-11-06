@@ -81,6 +81,44 @@ class ejercicios {
             }
         } while (intento != numeroAleatorio)
     }
+    val inventario = mutableListOf<String>()
 
+    fun administrarInventario() {
+        while (true) {
+            println("\nInventario actual: $inventario")
+            println("Elige una opción: \n1. Añadir \n2. Eliminar \n3. Modificar \n4. Salir")
+            val opcion = readLine()?.toIntOrNull() ?: continue
 
+            when (opcion) {
+                1 -> {
+                    print("Ingresa el producto a añadir: ")
+                    val producto = readLine()
+                    if (!producto.isNullOrEmpty()) inventario.add(producto)
+                }
+
+                2 -> {
+                    print("Ingresa el producto a eliminar: ")
+                    val producto = readLine()
+                    inventario.remove(producto)
+                }
+
+                3 -> {
+                    print("Ingresa el producto a modificar: ")
+                    val productoAntiguo = readLine()
+                    if (productoAntiguo in inventario) {
+                        print("Ingresa el nuevo nombre del producto: ")
+                        val productoNuevo = readLine()
+                        if (!productoNuevo.isNullOrEmpty()) {
+                            inventario[inventario.indexOf(productoAntiguo!!)] = productoNuevo
+                        }
+                    } else {
+                        println("Producto no encontrado")
+                    }
+                }
+
+                4 -> break
+                else -> println("Opción no válida")
+            }
+        }
+    }
 }

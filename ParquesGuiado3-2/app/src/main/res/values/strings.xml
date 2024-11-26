@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ParquesGuiado</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Descripcion" />
+    <string name="Name" />
+    <string name="title_activity_main">MainActivity</string>
+    <string name="add_park">Add Park</string>
+    <string name="about">About\n</string>
+    <string name="title_activity_about">about</string>
+</resources>

@@ -1,0 +1,5 @@
+esta base lo que crea son 2 menus desplegables los cuales el izquierdo desplegable se ubica en res/menu
+a partir de este menú lo que se hace es con una función ubica el botón al que se hace click para cambiar el layout def activity y no 
+cambiar de fragment como el basic example el cual si tiene definidos 2 fragments y cambia entre ellos.
+
+Para el funcionamiento este sample usa una clase llamado AppBarConfiguration al cual le pasas los layouts en orden y al fonal le pones drowLayout para que dibuje los layouts en el activity actual

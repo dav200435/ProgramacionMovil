@@ -28,5 +28,5 @@ fun gestionDeNotas() {
 
 fun main(){
     gestionDeNotas()
-    
+
 }

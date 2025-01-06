@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo de texto para el nombre de usuario -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:hint="Usuario"
+        android:inputType="text" />
+
+    <!-- Campo de texto para la contraseña -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <!-- Botón para iniciar sesión -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:text="Iniciar Sesión" />
+</LinearLayout>

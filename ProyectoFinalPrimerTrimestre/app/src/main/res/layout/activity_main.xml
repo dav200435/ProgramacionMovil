@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:title="Inventario"
+        android:titleTextColor="@android:color/white" />
+
+    <!-- ListView para mostrar el inventario -->
+    <ListView
+        android:id="@+id/inventoryListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" /> <!-- Esto hace que el ListView ocupe el espacio disponible -->
+
+    <!-- Botón para refrescar la lista -->
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refrescar Inventario"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

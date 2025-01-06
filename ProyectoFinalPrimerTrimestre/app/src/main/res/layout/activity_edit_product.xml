@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/productNameField"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:hint="Nombre del Producto a Editar" />
+
+    <EditText
+        android:id="@+id/newPriceField"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:hint="Nuevo Precio"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/newStockField"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:hint="Nuevo Stock"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar" />
+</LinearLayout>

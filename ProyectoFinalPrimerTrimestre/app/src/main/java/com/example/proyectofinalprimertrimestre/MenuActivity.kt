@@ -1,13 +1,13 @@
 package com.example.proyectofinalprimertrimestre
 
 import android.content.Intent
-import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.drawerlayout.widget.DrawerLayout
+import com.example.proyectofinalprimertrimestre.modelview.DeleteProductActivity
 import com.google.android.material.navigation.NavigationView
 
 abstract class MenuActivity : AppCompatActivity() {

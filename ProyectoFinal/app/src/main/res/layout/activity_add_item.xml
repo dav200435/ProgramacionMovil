@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editItemName"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:hint="Nombre del ítem" />
+
+    <EditText
+        android:id="@+id/editItemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Precio"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editItemStock"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:hint="Cantidad en stock"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSaveItem"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:text="Guardar" />
+</LinearLayout>

@@ -17,7 +17,7 @@ import com.mgh.pmdm.parques.view.dialogs.MiDialogFragment
 import com.mgh.pmdm.parques.viewModel.AdaptadorParques
 
 /**
- * A simple [Fragment] subclass as the default destination in the navigation.
+  * A simple [Fragment] subclass as the default destination in the navigation.
  */
 class FirstFragment : Fragment(), MiDialogFragment.OnOKOrCancelListener {
 

@@ -1,4 +1,4 @@
-package com.example.proyectofinalprimertrimestre
+package com.example.proyectofinalprimertrimestre.modelview
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -6,6 +6,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
+import com.example.proyectofinalprimertrimestre.MenuActivity
+import com.example.proyectofinalprimertrimestre.R
 import java.io.File
 
 class DeleteProductActivity : MenuActivity() {
